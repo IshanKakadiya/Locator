@@ -112,6 +112,8 @@ class _MyAppState extends State<MyApp> {
           Expanded(
             flex: 12,
             child: GoogleMap(
+              mapType: MapType.satellite,
+              myLocationEnabled: true,
               zoomControlsEnabled: false,
               onMapCreated: (GoogleMapController controller) {
                 googleMapController.complete(controller);
@@ -126,25 +128,6 @@ class _MyAppState extends State<MyApp> {
             ),
           ),
         ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          loction();
-          setState(() {
-            position = CameraPosition(
-              target: LatLng(lat, long),
-              zoom: 18,
-            );
-          });
-          final GoogleMapController controller =
-              await googleMapController.future;
-          controller.animateCamera(CameraUpdate.newCameraPosition(position));
-        },
-        backgroundColor: Colors.white,
-        child: const Icon(
-          Icons.gps_fixed,
-          color: Colors.black,
-        ),
       ),
     );
   }

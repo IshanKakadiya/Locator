@@ -1,16 +1,22 @@
-# live_loction_app
+# Permissions App
 
-A new Flutter project.
+Simple ***Permissions App*** Created with **Flutter Freamwork** And **Dart Language**
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Functionality
 
-A few resources to get you started if this is your first Flutter project:
+- Attractive UI
+- User Friendly
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/113764228/201339429-50e05091-13ad-4676-9520-c92179de117a.gif" width="400"> &nbsp; 
+<img src="https://user-images.githubusercontent.com/113764228/201339158-a00c1331-72c6-4e70-88d6-7141197d35aa.jpg" width="400"> &nbsp; 
+<img src="https://user-images.githubusercontent.com/113764228/201339178-3f7a534b-2b12-4108-8333-5fac3785ba2b.jpg" width="400"> &nbsp; 
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at ishankakadiya7@gmail.com
+
